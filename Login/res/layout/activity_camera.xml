@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="76dp"
+        android:text="Select the Camera"
+        tools:context=".CameraActivity" />
+
+    <Button
+        android:id="@+id/camera2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="62dp"
+        android:text="Camera2" />
+
+    <Button
+        android:id="@+id/camera1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/camera2"
+        android:layout_alignBottom="@+id/camera2"
+        android:layout_alignLeft="@+id/textView1"
+        android:text="Camera1" />
+
+    <Button
+        android:id="@+id/camera4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/camera2"
+        android:layout_below="@+id/camera2"
+        android:layout_marginTop="87dp"
+        android:text="Camera4" />
+
+    <Button
+        android:id="@+id/camera3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/camera4"
+        android:layout_alignBottom="@+id/camera4"
+        android:layout_alignLeft="@+id/camera1"
+        android:text="Camera3" />
+
+</RelativeLayout>

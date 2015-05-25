@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.76" >
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="16dp"
+            android:layout_y="38dp"
+            android:text="User Name:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <EditText
+            android:id="@+id/etRegUsername"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_x="143dp"
+            android:layout_y="28dp" >
+
+            <requestFocus />
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/etRegPassword"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_x="142dp"
+            android:layout_y="84dp" />
+
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="28dp"
+            android:layout_y="94dp"
+            android:text="Password:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_x="174dp"
+            android:layout_y="340dp"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/btnRegisterReg"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_x="30dp"
+            android:layout_y="353dp"
+            android:text="Register" />
+
+       
+
+     
+
+    </AbsoluteLayout>
+
+</LinearLayout>
